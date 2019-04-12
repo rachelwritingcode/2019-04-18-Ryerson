@@ -278,7 +278,7 @@ please preview your site before committing, and make sure to run
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
-    For this lesson you will need <em>OpenRefine</em> and a
+    For this lesson you will need <a href="http://openrefine.org/download.html"><em>OpenRefine Version 3.1</em></a> and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
@@ -328,27 +328,4 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
-<div id="vm">
-  <h3>Virtual Machine</h3>
-
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
 {% endcomment %}

@@ -23,38 +23,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %}
 {% endcomment %}
 
-
-
 {% comment %}
 {% endcomment %}
-
 
 {% if page.carpentry != site.carpentry %}
-<div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
-see the changes take effect locally.
-</div>
 {% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 
 <h2 id="general">General Information</h2>
 
@@ -99,9 +72,8 @@ address.
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="https://www.google.ca/maps/place/Ryerson+University+Library+%26+Archives/@43.6579406,-79.3827685,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34cab2a56619:0x67aab32eaa367e3b!8m2!3d43.658187!4d-79.380671">Google Maps</a>.
+  
 </p>
 {% endif %}
 

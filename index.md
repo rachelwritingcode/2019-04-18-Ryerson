@@ -192,8 +192,9 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif page.carpentry == "lc" %}
-{% include lc/schedule.html %}
+include lc/schedule.html
 {% endif %}
+include lc/schedule.html
 
 {% comment %}
 Collaborative Notes
@@ -237,12 +238,13 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "dc" %}
 {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
-{% include lc/syllabus.html %}
+include lc/syllabus.html
 {% endif %}
 
 <hr/>
 
 {% comment %}
+
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each

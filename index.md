@@ -278,7 +278,7 @@ please preview your site before committing, and make sure to run
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
-    For this lesson you will need <a href="http://openrefine.org/download.html"><em>OpenRefine Version 3.1</em></a> and a
+    For this lesson you will need <a href="http://openrefine.org/download.html">OpenRefine Version 3.1</a> and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>

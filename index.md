@@ -194,7 +194,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "lc" %}
 {%include lc/schedule.html%}
 {% endif %}
-include lc/schedule.html
+{% include lc/schedule.html %}
 
 {% comment %}
 Collaborative Notes

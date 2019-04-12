@@ -238,7 +238,7 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "dc" %}
 {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
-include lc/syllabus.html
+{% include lc/syllabus.html %}
 {% endif %}
 
 <hr/>
